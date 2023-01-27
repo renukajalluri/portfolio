@@ -55,17 +55,17 @@ export const AboutMe = () => {
             </div>
             <div className="text-aboutColor ml-1 my-1">
               <p>
-                I’m a Skilled Web Developer with expertise in designing and
-                developing Full Stack Web Applications. Professional in popular
-                Web Frameworks & Libraries like React Js,Next Js,Express,Node.js
-                etc.
+                I`&apos;`m a Skilled Web Developer with expertise in designing
+                and developing Full Stack Web Applications. Professional in
+                popular Web Frameworks & Libraries like React Js,Next
+                Js,Express,Node.js etc.
               </p>
             </div>
 
             <div className="text-aboutColor ml-1 my-2 tracking-widest">
               <p>
-                Here are a few technologies I’ve been working with (find details
-                in Resume):
+                Here are a few technologies I `&apos;`ve been working with (find
+                details in Resume):
               </p>
             </div>
             <div className="text-aboutColor ml-1 my-3 tracking-widest">

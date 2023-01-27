@@ -31,9 +31,9 @@ export const Contact = () => {
         </div>
         <div>
           <p className="text-primaryLight text-[17px] font-normal tracking-wider">
-            I'm actively connecting with peers who are in to Web Developement my
-            inbox is always open. Whether you have a question or just want to
-            say hi, I’ll try my best to get back to you!
+            I`&apos;`m actively connecting with peers who are in to Web
+            Developement my inbox is always open. Whether you have a question or
+            just want to say hi, I`&apos;`ll try my best to get back to you!
           </p>
         </div>
 
