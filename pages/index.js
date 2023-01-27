@@ -9,6 +9,7 @@ import { AboutMe } from "../components/AboutMe";
 import { WorkExperience } from "../components/WorkExperience";
 import { Projects } from "../components/Projects";
 import { Contact } from "../components/Contact";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -20,8 +21,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         {/* <link rel="stylesheet" href="aos-by-red.css" /> */}
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        {/* <Script src="https://third-party-script.js"></Script> */}
       </Head>
       <div className="">
+        <Script src="https://third-party-script.js"></Script>
+
         <Nav />
 
         <About />
