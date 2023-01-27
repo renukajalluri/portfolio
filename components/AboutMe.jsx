@@ -79,19 +79,6 @@ export const AboutMe = () => {
               </p>
               <p className="my-3">Database : SQL, MongoDB</p>
             </div>
-
-            {/* <div className="text-aboutColor    my-3">
-              <ul className="listNone ml-1  grid grid-cols-2	 ">
-                {skills.map((skill, index) => (
-                  <li key={index} className="hover:text-secondary">
-                    <a>
-                      <span className=" mr-1 text-secondary">▹</span>{" "}
-                      {skill.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div> */}
           </div>
           {/* profile image */}
           {/* <div className="group w-full  my-10 h-80  ">

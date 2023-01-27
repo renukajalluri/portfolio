@@ -201,7 +201,11 @@ export const WorkExperience = () => {
                     <div className="font-semibold text-xl">
                       <span className=" pr-2"> {e.heading}</span>
                       <span className="text-secondary">
-                        <a target="_blank" href={e.companyWebsite}>
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href={e.companyWebsite}
+                        >
                           @{e.companyName}
                         </a>
                       </span>
@@ -265,6 +269,7 @@ export const WorkExperience = () => {
                             <a
                               href={e.certificate}
                               target="_blank"
+                              rel="noreferrer"
                               className="  text-secondary  "
                             >
                               View Certificate
@@ -332,7 +337,11 @@ export const WorkExperience = () => {
                         <div className="font-semibold text-xl">
                           <span className=" pr-2"> {e.heading}</span>
                           <span className="text-secondary">
-                            <a target="_blank" href={e.companyWebsite}>
+                            <a
+                              target="_blank"
+                              rel="noreferrer"
+                              href={e.companyWebsite}
+                            >
                               @{e.companyName}
                             </a>
                           </span>
@@ -393,6 +402,7 @@ export const WorkExperience = () => {
                                 <a
                                   href={e.certificate}
                                   target="_blank"
+                                  rel="noreferrer"
                                   className="  text-secondary  "
                                 >
                                   View Certificate

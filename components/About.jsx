@@ -32,6 +32,7 @@ export const About = () => {
         </p>
         <a
           target="_blank"
+          rel="noreferrer"
           className="xs:my-5"
           href="https://www.linkedin.com/in/jallurirenuka/"
         >

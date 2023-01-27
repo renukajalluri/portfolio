@@ -41,6 +41,7 @@ export const Contact = () => {
           <a
             href="mailto:renukajalluri20@gmail.com"
             target="_blank"
+            rel="noreferrer"
             className="font-family  text-secondary py-4 px-10 w-11 hover:bg-secondary hover:bg-opacity-10 cursor-pointer    border-secondary rounded border-2 "
           >
             Say Hello

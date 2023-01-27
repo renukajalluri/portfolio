@@ -33,7 +33,7 @@ const Nav = () => {
 
       <div className="px-4">
         <h1 className="text-xl font-semibold  first-letter:text-secondary first-letter:font-bold first-letter:text-3xl">
-          <a href="/">
+          <a href="#">
             Renuka<span>.</span>
           </a>
         </h1>
@@ -67,6 +67,7 @@ const Nav = () => {
                 <a
                   href="/pdf/resume.pdf"
                   target="_blank"
+                  rel="noreferrer"
                   className="  text-secondary  "
                 >
                   Resume

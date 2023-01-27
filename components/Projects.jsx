@@ -151,6 +151,7 @@ export const Projects = () => {
                 <span>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://take-away-frontend.vercel.app"
                     className=""
                   >
@@ -175,8 +176,8 @@ export const Projects = () => {
                   position = "lastSlide";
                 }
                 return (
-                  <div className="flex flex-col">
-                    <article key={id} className={position}>
+                  <div key={id} className="flex flex-col">
+                    <article className={position}>
                       <img src={url} alt="bg" className="person-img" />
                     </article>
                   </div>
@@ -219,6 +220,7 @@ export const Projects = () => {
                 <span>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://jira-fe-seven.vercel.app/login"
                     className=""
                   >
@@ -241,8 +243,8 @@ export const Projects = () => {
                   position = "lastSlide";
                 }
                 return (
-                  <div className="flex flex-col">
-                    <article key={id} className={position}>
+                  <div key={id} className="flex flex-col">
+                    <article className={position}>
                       <img src={url} alt="bg" className="person-img" />
                     </article>
                   </div>
