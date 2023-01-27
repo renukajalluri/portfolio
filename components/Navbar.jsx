@@ -14,10 +14,8 @@ const Nav = () => {
 
     <nav
       data-aos="fade-up"
-      // data-aos-duration="1000"
+      data-aos-duration="1000"
       data-aos-once="false"
-      // data-aos-delay="60"
-      // data-aos-easing="ease-in-out"
       className=" bg-bgColor fadeIn font-nav font-family  text-primary flex items-center justify-between pt-5 "
     >
       <div
