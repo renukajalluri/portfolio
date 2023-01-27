@@ -16,7 +16,8 @@ const Nav = () => {
       data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-once="false"
-      className=" bg-bgColor fadeIn font-nav font-family  text-primary flex items-center justify-between pt-5 "
+      // fadeIn
+      className=" bg-bgColor  font-nav font-family  text-primary flex items-center justify-between pt-5 "
     >
       <div
         onClick={() => setopen(!open)}
