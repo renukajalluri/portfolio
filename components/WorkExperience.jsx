@@ -105,9 +105,6 @@ export const WorkExperience = () => {
     },
   ];
 
-  experienceData.map((e, i) => {
-    console.log(e.project1);
-  });
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
