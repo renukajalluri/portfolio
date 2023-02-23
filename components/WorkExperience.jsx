@@ -51,19 +51,34 @@ export const WorkExperience = () => {
       companyName: "WebsiteWaale.in",
     },
   ];
+  const projects = ["https://www.neithedu.com/", "https://app.motowipe.in/"];
 
   const experienceData = [
+    // Working on an educational website https://www.neithedu.com the technologies that i have been used HTML, CSS, JAVASCRIPT, REACTJS, MATERIAL UI. Developing a progressive web app https://app.motowipe.in/ the technologies that I have been used HTML, CSS, JAVASCRIPT, REACTJS, MATERIAL UI. And redesigned few websites Techpranee, varasiddi, MohanElectronics.
+
     {
       heading: "Frontend Developer",
       companyName: "TechPranee",
       companyWebsite: "https://techpranee.com/",
       duration: "Nov 2022 - Present",
-      description1:
-        "Working on a website Neithedu which is an educational website.",
-      description2:
-        "Revamping company website TechPranee.With technologies Html, Css and Next js",
-      project1: "https://www.neithedu.com/",
-      skills: ["Html ", "Css", "ReactJs", " NextJs", "Material UI"],
+      description: [
+        `Working on an educational website ${projects[0]}, technologies that i have been used Html, Css, JavaScript, Reactjs and  Material UI. Employed lazy loading techniques to improve site speed. Implemented Razorpay integration. Implemented role-based authorization in ReactJS using tools such as Overmind and React Router to restrict access to certain pages and features based on user roles.`,
+        `Developing a progressive web app ${projects[1]}, technologies that I have been used Html, Css, JavaScript, Reactjs and  Material UI.`,
+        "Revamping few websites Techpranee, varasiddi, MohanElectronics.",
+      ],
+      description1: `Working on an educational website ${projects[0]}, technologies that i have been used Html, Css, JavaScript, Reactjs and  Material UI. Employed lazy loading techniques to improve site speed. Implemented Razorpay integration. Implemented role-based authorization in ReactJS using tools such as Overmind and React Router to restrict access to certain pages and features based on user roles.`,
+      description2: `Developing a progressive web app ${projects[1]}, technologies that I have been used Html, Css, JavaScript, Reactjs and  Material UI. Worked on Firebase Login authentication and Firebase otp verification.`,
+      description3:
+        "Revamping few websites Techpranee, varasiddi, MohanElectronics.",
+
+      skills: [
+        "Html ",
+        "Css",
+        "ReactJs",
+        " NextJs",
+        "Material UI",
+        "Tailwind Css",
+      ],
     },
     {
       heading: "Teaching Assistant",
@@ -72,10 +87,15 @@ export const WorkExperience = () => {
       duration: "Sept 2022 - Jan 2023",
       certificate:
         "https://ninjasfiles.s3.amazonaws.com/certificate5822ac81d6c6771cf14fdd2536f836345128.pdf",
+
+      // description: [
+      //   "I worked as teaching assistant for Full Stack Web Development. Responsible for mentoring and resolving doubts of students enrolled in Full Stack Web Development , Basics of Full Stack Development - MERN stack ",
+      //   "I successfully mentored 676 students and resolved 1.5k doubts and evaluated 34 projects with an average rating of 4.87 out of 5.",
+      // ],
       description1:
         "I worked as teaching assistant for Full Stack Web Development. Responsible for mentoring and resolving doubts of students enrolled in Full Stack Web Development , Basics of Full Stack Development - MERN stack ",
       description2:
-        "I successfully mentored 676 students and resolved 1.5k doubts and evaluated 34 projects  with an average rating of 4.87 out of 5.",
+        "I successfully mentored 676 students and resolved 1.5k doubts and evaluated 34 projects with an average rating of 4.87 out of 5.",
       skills: [
         "Html ",
         "Css",
@@ -91,6 +111,9 @@ export const WorkExperience = () => {
       companyName: "WebsiteWale.in",
       companyWebsite: "#",
       duration: "June 2022 - Sept 2022",
+      // description: [
+      //   "In this internship I worked as MERN Developer and worked on two projects Issue Tracking Tool and Take Away websites ",
+      // ],
       description1:
         "In this internship I worked as MERN Developer and worked on two projects Issue Tracking Tool and Take Away websites ",
       skills: [
@@ -104,6 +127,15 @@ export const WorkExperience = () => {
       ],
     },
   ];
+
+  experienceData.map((e) => {
+    const descriptionWithLink = e.description3;
+    // .replace(
+    //   /https?:\/\/[\w\-.]+\.[a-zA-Z]{2,}(\/\S*)?/,
+    //   '<a href="$&" target="_blank" rel="noopener noreferrer">$&</a>'
+    // );
+    console.log(descriptionWithLink);
+  });
 
   const [value, setValue] = React.useState(0);
 
@@ -229,13 +261,7 @@ export const WorkExperience = () => {
                           </span>
                         </div>
                       </li>
-                      {/* {e.project1 ? (
-                        <li>
-                          <a href={e.project1}>Neithedu</a>
-                        </li>
-                      ) : (
-                        ""
-                      )} */}
+
                       {e.description2 ? (
                         <li className="flex gap-2 my-2">
                           <div>
@@ -243,8 +269,22 @@ export const WorkExperience = () => {
                           </div>
                           <div>
                             <span className="  items-start">
-                              {" "}
                               {e.description2}
+                            </span>
+                          </div>
+                        </li>
+                      ) : (
+                        ""
+                      )}
+                      {e.description3 ? (
+                        <li className="flex gap-2 my-2">
+                          <div>
+                            <span className="text-secondary">▹</span>
+                          </div>
+                          <div>
+                            <span className="  items-start">
+                              {/* readdyy */}
+                              {e.description3}
                             </span>
                           </div>
                         </li>
@@ -376,6 +416,21 @@ export const WorkExperience = () => {
                                 <span className="  items-start">
                                   {" "}
                                   {e.description2}
+                                </span>
+                              </div>
+                            </li>
+                          ) : (
+                            ""
+                          )}
+                          {e.description3 ? (
+                            <li className="flex gap-2 my-2">
+                              <div>
+                                <span className="   text-secondary">▹</span>
+                              </div>
+                              <div>
+                                <span className="  items-start">
+                                  {" "}
+                                  {e.description3}
                                 </span>
                               </div>
                             </li>

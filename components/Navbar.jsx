@@ -67,7 +67,7 @@ const Nav = () => {
                   href="/pdf/resume.pdf"
                   target="_blank"
                   rel="noreferrer"
-                  className="  text-secondary  "
+                  className="text-secondary  "
                 >
                   Resume
                 </a>
