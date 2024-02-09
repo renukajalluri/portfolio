@@ -24,11 +24,11 @@ export const Footer = () => {
             <FiLinkedin />
           </a>
         </li>
-        <li className="hover:text-secondary  transition px-5">
+        {/* <li className="hover:text-secondary  transition px-5">
           <a href="#">
             <AiOutlineInstagram />
           </a>
-        </li>
+        </li> */}
       </ul>
       <div className="items-center  mx-auto   text-lightSlate flex justify-center w-full my-3 ">
         <h1 className="hover:text-secondary letterSpacing font-family">

@@ -25,11 +25,11 @@ export const SocialIcons = () => {
             <FiLinkedin />
           </a>
         </li>
-        <li className="md:py-6 md:hover:text-secondary md:hover:-translate-y-0.5 md:transition">
+        {/* <li className="md:py-6 md:hover:text-secondary md:hover:-translate-y-0.5 md:transition">
           <a href="#">
             <AiOutlineInstagram />
           </a>
-        </li>
+        </li> */}
         <li className="md:pt-10 md:hover:text-secondary md:transition">
           <div className="md:border-l-2 md:border-lightSlate md:h-32 "></div>
         </li>

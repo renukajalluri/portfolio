@@ -64,7 +64,7 @@ const Nav = () => {
             <li className="">
               <div className="p-2 pb-2 md:ml-10 ml-6  w-32 text-center hover:bg-secondary hover:bg-opacity-10 cursor-pointer  align-middle items-center  border-secondary rounded border-2">
                 <a
-                  href="/pdf/resume.pdf"
+                  href="/pdf/resume_1.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="text-secondary  "

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 // import Slider from "react-slick";
 // import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import { RxDotFilled } from "react-icons/rx";
 import {
   // FiChevronRight,
   // FiChevronLeft,
@@ -148,7 +147,7 @@ export const Projects = () => {
               ></div>
               <h1 className="text-secondary mb-4 mt-2 ml-2 text-2xl  font-semibold w-full flex  ">
                 <span> Take Away</span>
-                <span>
+                {/*<span>
                   <a
                     target="_blank"
                     rel="noreferrer"
@@ -157,7 +156,7 @@ export const Projects = () => {
                   >
                     <FaExternalLinkAlt className="text-sm font-light ml-3 mt-3" />{" "}
                   </a>
-                </span>
+        </span>*/}
               </h1>
               {/* </div> */}
             </div>
@@ -217,7 +216,7 @@ export const Projects = () => {
               ></div>
               <h1 className="text-secondary mb-4 mt-2 ml-2 text-2xl  font-semibold w-full flex  ">
                 <span> Issue Tracking Tool</span>
-                <span>
+                {/* <span>
                   <a
                     target="_blank"
                     rel="noreferrer"
@@ -226,7 +225,7 @@ export const Projects = () => {
                   >
                     <FaExternalLinkAlt className="text-sm font-light ml-3 mt-3" />{" "}
                   </a>
-                </span>
+                </span> */}
               </h1>
             </div>
             <div className="lg:block xl:block section-center md:hidden sm:hidden xs:hidden ">
